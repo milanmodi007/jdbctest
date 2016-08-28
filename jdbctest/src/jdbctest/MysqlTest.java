@@ -16,6 +16,7 @@ public class MysqlTest {
 		   
 			try 
 			{
+				//testing commit.
 				conn = DriverManager.getConnection(DB_URL,USER,PASS);
 				stmt = conn.createStatement();
 				String sql;
